@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="indexRGB.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="favicon paleta.jpg" type="image/x-icon">
+    <title>Colores RGB</title>
+
+</head>
+<body>
+   <div class="contenedor-principal">
+      <div class="contenedor-interno">
+         <div class="color">
+           <label for="rojo ">Rojo (R)</label>
+           <input type="range" id="rojo" min="0" max="255" value="38" step="1" >
+           <p id="texto-rojo"></p>
+         </div>
+
+         <div class="color">
+          <label for="verde ">Verde (V)</label>
+          <input type="range" id="verde" min="0" max="255" value="90" step="1" >
+          <p id="texto-verde"></p>
+        </div>
+        <div class="color">
+          <label for="azul">Azul (A)</label>
+          <input type="range" id="azul" min="0" max="255" value="129" step="1" >
+          <p id="texto-azul"></p>
+        </div>
+      </div>
+
+   </div>
+    
+
+
+    <script src="indexRGB.js"></script>
+</body>
+</html>
